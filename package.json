@@ -1,0 +1,21 @@
+{
+  "name": "green-nodeapis",
+  "version": "1.0.0",
+  "description": "APIs em nodejs referente ao projeto/startup green-fiap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.js"
+  },
+  "author": "Danilo Domingues/Guilherme Jeronymo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "guid": "0.0.12",
+    "http": "0.0.1-security",
+    "mongoose": "^5.10.9"
+  }
+}
